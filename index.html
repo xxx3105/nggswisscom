@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Create a new HTML-File to solve these exercises and link it in your existing 
+project.
+Include a linked JavaScript file in your webpage.
+Create a button that increments a counter inside a <p> tag when pressed. -->
+
+    <h1>Betrag von meinen Gehalt(in CHF):</h1>
+
+    <p id="betrag">0</p>
+    <button onclick="rechner()">Button</button>
+
+    <!-- 
+AUFGABE 2 -->
+    <!-- Add a button to your webpage that toggles (hides or shows) a <div> element.
+The text of the button should also change depending on whether the div is 
+visible (e.g., "hide" or "show") -->
+
+    <br />
+
+    <br />
+    <p id="mehr" style="display: none">
+      Glückwunsch! Sie haben Ihr Wissen um 10 % erweitert. Neue Arbeit ist nähe.
+    </p>
+
+    <br />
+    <button id="knopf" onclick="readMore()">Lesen</button>
+
+    <!-- AUFGABE 3 -->
+    <!-- Create a simple website that allows a user to calculate the area of a circle (in square 
+meters) by entering the radius of the circle in meters. -->
+
+    <h1>Radius of the circle:</h1>
+
+    <p id="result">0</p>
+
+    <input id="num1" />
+
+    <p>Please enter radius in meters of your circle and recive result in m2</p>
+
+    <button onclick="func()">Mach Magie!</button>
+
+    <!-- AUFGABE 4 -->
+    <!--      
+Create an input field with a label. Add a button that, when pressed, changes 
+the color of a <p> element with the value of the input field -->
+
+    <p id="farbe-von-text">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus in ullam
+      asperiores praesentium sequi. Magnam autem tempora molestias quae nulla
+      aut sit, ipsam itaque officiis harum aliquam ab. Aut, quibusdam! Magnam in
+      rem tenetur officiis eveniet ex ipsa quaerat tempore cumque veritatis
+      recusandae placeat voluptatum nihil ipsum saepe quod minus magni
+      architecto quas, illo officia! Dolores, beatae. Aspernatur, neque sint!
+      Ipsa, blanditiis omnis non at sequi rerum quas dolorem aliquid beatae
+      cupiditate eos iure? Delectus ipsum ad eligendi animi, minima eaque quasi
+      quo, rerum ullam aliquid ratione, fugiat cupiditate deserunt. Accusantium,
+      explicabo vitae quae dolor maxime quibusdam quia, iure voluptas amet a,
+      repellat est. Officia accusamus dolorum molestias nemo alias! Aut esse
+      veritatis impedit ducimus possimus fuga neque delectus amet! Quisquam quas
+      nemo omnis repudiandae adipisci debitis doloremque a totam inventore,
+      optio voluptates sint eaque laboriosam sit nisi ipsa aliquid, similique
+    </p>
+
+    <input id="num2" />
+
+    <p>Please enter the name of color (RGB, HEX or name)</p>
+
+    <button onclick="knopf()">Mach Magie!</button>
+
+    <!-- AUFGABE 5 -->
+    <!-- // Write a function that takes two numbers as arguments. // The function
+    should return the greatest common divisor of these numbers -->
+
+    <!-- <h1>Return the greatest common divisor:</h1>
+
+    <p id="result0">0</p>
+
+    <input id="num3" />
+
+    <input id="num4" />
+
+    <p>Please enter two numbers</p>
+
+    <button onclick="diviserFinder()">Mach Magie!</button> -->
+
+    <!-- AUFGABE 6 -->
+    <!-- Write a function that calculates the 
+    least common multiple of two numbers
+    input as parameters. Write the result to the console. -->
+
+    <br />
+    <br />
+
+    <p>Dynamic list 1</p>
+
+    <!-- <p id="resultList"></p> -->
+
+    <p id="mehr2" style="display: none">
+      <span id="resultList"> <ul></ul> </span>
+    </p>
+
+    <br />
+    <button id="knopf2" onclick="readMoreTwo()">Lesen</button>
+
+    <br />
+    <br />
+
+    <p>Dynamic list 2</p>
+
+    <span id="resultList2"> <ul></ul> </span>
+
+    <br />
+
+    <input id="num3" />
+
+    <p>Bei diesem Programm können Sie Ihre List auf der Website lassen.</p>
+
+    <button onclick="addNumber()">Addieren Sie bitte</button>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <p class="clock" id="zeit"></p>
+
+    <br />
+    <br />
+
+    <div class="table">
+      <div>
+        <h1 class="name">Title 2</h1>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum labore
+          harum ipsam nesciunt, eius dolore exercitationem laborum obcaecati
+          voluptatibus! Nostrum minima incidunt molestias nobis voluptatibus
+          distinctio sequi exercitationem ducimus obcaecati? Quaerat sit eum
+          vitae velit aspernatur voluptatibus commodi dolor, omnis, aperiam esse
+          doloremque quod modi suscipit incidunt facilis possimus veritatis ex
+          consequatur cupiditate harum praesentium neque, magnam doloribus?
+          Omnis, voluptas. Provident excepturi deserunt, maxime esse nobis
+          nesciunt eos ipsum corporis, vel consequuntur laudantium veniam labore
+          odit nam adipisci reprehenderit magnam asperiores consequatur eius
+          laboriosam illum. Assumenda dolor quo facere perspiciatis. Suscipit
+          quam minima tenetur unde ratione similique odit, omnis dolore sequi
+          dolorum, cupiditate consequatur praesentium quidem et soluta in quos
+          fuga sapiente? Qui repudiandae amet distinctio fugit. Voluptatibus,
+          facere explicabo? Numquam, nulla rem magni culpa quod eius laudantium,
+          dolorem assumenda dolores animi odio, id veniam fugit quis ut! Culpa
+          possimus earum consectetur quam magni blanditiis, voluptates commodi
+          neque fugit quas? Consectetur placeat aliquid, sit suscipit corporis
+          itaque ipsam iure beatae quod facilis mollitia reiciendis fugiat
+          laborum repudiandae cum cumque veritatis. Laborum est velit numquam
+          explicabo corporis, vel quam doloremque totam? Dignissimos inventore
+          iure ut harum quas natus nisi asperiores voluptates, ipsa, saepe
+          aspernatur molestiae deleniti
+        </p>
+      </div>
+
+      <div>
+        <h1 class="name">Title 2</h1>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum labore
+          harum ipsam nesciunt, eius dolore exercitationem laborum obcaecati
+          voluptatibus! Nostrum minima incidunt molestias nobis voluptatibus
+          distinctio sequi exercitationem ducimus obcaecati? Quaerat sit eum
+          vitae velit aspernatur voluptatibus commodi dolor, omnis, aperiam esse
+          doloremque quod modi suscipit incidunt facilis possimus veritatis ex
+          consequatur cupiditate harum praesentium neque, magnam doloribus?
+          Omnis, voluptas. Provident excepturi deserunt, maxime esse nobis
+          nesciunt eos ipsum corporis, vel consequuntur laudantium veniam labore
+          odit nam adipisci reprehenderit magnam asperiores consequatur eius
+          laboriosam illum. Assumenda dolor quo facere perspiciatis. Suscipit
+          quam minima tenetur unde ratione similique odit, omnis dolore sequi
+          dolorum, cupiditate consequatur praesentium quidem et soluta in quos
+          fuga sapiente? Qui repudiandae amet distinctio fugit. Voluptatibus,
+          facere explicabo? Numquam, nulla rem magni culpa quod eius laudantium,
+          dolorem assumenda dolores animi odio, id veniam fugit quis ut! Culpa
+          possimus earum consectetur quam magni blanditiis, voluptates commodi
+          neque fugit quas? Consectetur placeat aliquid, sit suscipit corporis
+          itaque ipsam iure beatae quod facilis mollitia reiciendis fugiat
+          laborum repudiandae cum cumque veritatis. Laborum est velit numquam
+          explicabo corporis, vel quam doloremque totam? Dignissimos inventore
+          iure ut harum quas natus nisi asperiores voluptates, ipsa, saepe
+          aspernatur molestiae deleniti
+        </p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

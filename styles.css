@@ -1,0 +1,29 @@
+#farbe-von-text {
+  color: tomato;
+  font-size: large;
+}
+
+.clock {
+  height: 150px;
+  width: 150px;
+  background: gray;
+  border-radius: 50%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  border: 4px solid rgb(31, 31, 31);
+  font-size: 25px;
+  color: bisque;
+}
+
+.table {
+  display: flex;
+}
+
+.name {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
